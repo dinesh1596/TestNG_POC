@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-12T09:10:34 IST" name="Suite" finished-at="2024-02-12T09:11:20 IST" duration-ms="45166">
+    <groups>
+    </groups>
+    <test started-at="2024-02-12T09:10:34 IST" name="Test" finished-at="2024-02-12T09:11:20 IST" duration-ms="45166">
+      <class name="com.test.LoginTest">
+        <test-method signature="loginWithValidUsernameAndPassword(java.lang.String,java.lang.String)[pri:0, instance:com.test.LoginTest@235ecd9f]" started-at="2024-02-12T09:10:34 IST" name="loginWithValidUsernameAndPassword" finished-at="2024-02-12T09:10:45 IST" duration-ms="10167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shanmathi22]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shan@22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUsernameAndPassword -->
+        <test-method signature="loginWithInValidUsernameAndPassword(java.lang.String,java.lang.String)[pri:1, instance:com.test.LoginTest@235ecd9f]" started-at="2024-02-12T09:10:45 IST" name="loginWithInValidUsernameAndPassword" finished-at="2024-02-12T09:10:50 IST" duration-ms="5384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shan@22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInValidUsernameAndPassword -->
+        <test-method signature="loginWithValidUsernameAndInvalidPassword(java.lang.String,java.lang.String)[pri:2, instance:com.test.LoginTest@235ecd9f]" started-at="2024-02-12T09:10:50 IST" name="loginWithValidUsernameAndInvalidPassword" finished-at="2024-02-12T09:10:56 IST" duration-ms="5639" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shanmathi22]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shan22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUsernameAndInvalidPassword -->
+        <test-method signature="loginWithInValidUsernameAndInvalidPassword(java.lang.String,java.lang.String)[pri:3, instance:com.test.LoginTest@235ecd9f]" started-at="2024-02-12T09:10:56 IST" name="loginWithInValidUsernameAndInvalidPassword" finished-at="2024-02-12T09:11:01 IST" duration-ms="5355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shan22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInValidUsernameAndInvalidPassword -->
+        <test-method signature="withOutUsernameAndPassword()[pri:4, instance:com.test.LoginTest@235ecd9f]" started-at="2024-02-12T09:11:01 IST" name="withOutUsernameAndPassword" finished-at="2024-02-12T09:11:07 IST" duration-ms="5489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withOutUsernameAndPassword -->
+        <test-method signature="clickingLoginButtonWithoutPassword(java.lang.String)[pri:5, instance:com.test.LoginTest@235ecd9f]" started-at="2024-02-12T09:11:07 IST" name="clickingLoginButtonWithoutPassword" finished-at="2024-02-12T09:11:11 IST" duration-ms="4543" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shanmathi22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingLoginButtonWithoutPassword -->
+        <test-method signature="clickingLoginButtonWithoutUsername(java.lang.String)[pri:6, instance:com.test.LoginTest@235ecd9f]" started-at="2024-02-12T09:11:11 IST" name="clickingLoginButtonWithoutUsername" finished-at="2024-02-12T09:11:20 IST" duration-ms="8519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shan22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingLoginButtonWithoutUsername -->
+      </class> <!-- com.test.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
