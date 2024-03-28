@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
 	  <parameter name="username" value="Shanmathi22"></parameter>
-	  <parameter name="password" value="Shan@22"></parameter>
+	  <parameter name="password" value="AM29JB"></parameter>
 	  <parameter name="username1" value="Shan"></parameter>
 	  <parameter name="password1" value="Shan@22"></parameter>
 	  <parameter name="username2" value="Shanmathi22"></parameter>

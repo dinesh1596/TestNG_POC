@@ -5,7 +5,12 @@
     <classes>
       <class name="com.test.LoginTest">
         <methods>
-          <include name="TC001"/>
+          <include name="clickingLoginButtonWithoutPassword"/>
+          <include name="loginWithValidUsernameAndPassword"/>
+          <include name="loginWithInValidUsernameAndInvalidPassword"/>
+          <include name="loginWithValidUsernameAndInvalidPassword"/>
+          <include name="loginWithInValidUsernameAndPassword"/>
+          <include name="clickingLoginButtonWithoutUsername"/>
         </methods>
       </class> <!-- com.test.LoginTest -->
     </classes>
