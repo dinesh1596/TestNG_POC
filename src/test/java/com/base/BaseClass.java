@@ -6,7 +6,6 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 import java.util.Properties;
-
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -23,6 +22,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -414,5 +414,7 @@ return firstSelectedOption;
 		elementVisibility(element);
 		element.clear();
 	}
-
+	public void quit2() {
+		driver.quit();
+}
 }
