@@ -414,7 +414,16 @@ return firstSelectedOption;
 		elementVisibility(element);
 		element.clear();
 	}
+
 	public void quit2() {
 		driver.quit();
 }
+
+	public void clear1(WebElement element) {
+		elementVisibility(element);
+		element.clear();
+	}
+	
+
+
 }
