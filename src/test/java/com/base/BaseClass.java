@@ -423,7 +423,10 @@ return firstSelectedOption;
 		elementVisibility(element);
 		element.clear();
 	}
-	
 
+	public void clear2(WebElement element) {
+		elementVisibility(element);
+		element.clear();
+	}
 
 }
